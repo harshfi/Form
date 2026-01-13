@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to right,red,yellow);
+}
+.box{
+    font-size: 50px;
+    margin: 100px auto;
+    text-align: center;
+}
+button{
+    font-size: xx-large;
+}
