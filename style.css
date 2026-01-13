@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: Arial;
+  background: linear-gradient(red,orange,white);
+  font-size:18px;
+}
+
+form{
+  background:rgb(208, 112, 3);
+  padding:30px;
+  width:320px;
+  border-radius:10px;
+  box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+input,button{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  font-size:18px;
+}
+
+button{
+  background:blue;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
