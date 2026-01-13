@@ -1,3 +1,51 @@
+       *{
+            margin:auto;
+            margin-top:50px;
+       }
+       body{
+        background-color:bisque;
+       }
+
+        form {
+            background-color: #fff;
+            padding: 25px 30px;
+            width: 300px;
+            box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        input:focus {
+            border-color: #6c63ff;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #6c63ff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background-color: #5548c8;
+        }
+ 
+
+
 *{
     background-color: antiquewhite;
 }
