@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .tit{
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+    </style>
 </head>
 <body>
     <!-- //login form -->
+     <div class="tit">
+     <div class="sym">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/a5/dd/3ba5dd5c-0e42-a7fe-3ad6-de08617a3400/MiraiAppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg" alt="" style="width: 72px;margin-left: 272px;">
+     </div>
+     <div class="heading"><h1>MIRAI FORM</h1></div></div>
      <form action="/login" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
