@@ -67,13 +67,15 @@ body {
 
         button:hover {
             background-color: #5548c8;
+            height: 50px;
+            width: 310px;
         }
  
 
 
-*{
+/* *{
     background-color: antiquewhite;
-}
+} */
 
 form{
   margin: 0 auto;
@@ -86,6 +88,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-body {
+
     background-color: lightblue;
 }
