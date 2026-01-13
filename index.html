@@ -4,17 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(229, 247, 255);
+        }
+        form{
+            border: 4px double black;
+            width: 400px;
+            font-size: 25px;
+            margin-left: 20px;
+            margin-top: 50px;
+            padding-left: 20px;
+
+        }
+        h1{
+            text-align: center;
+        }
+        .p1{
+            border-bottom: 1px solid black;
+            background-color: rgb(52, 158, 172);
+            color: white;
+            margin-bottom: 10px;
+        }
+
+    </style>
 </head>
 <body>
     <!-- //login form -->
+     <div class="p1">
+        <h1>Registration form</h1>
+
+     </div>
      <form action="/login" method="post">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <input type="text" id="username" name="username" required style="margin-bottom: 10px;">
         <br>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="password" name="password" required style="margin-bottom: 10px;">
+
         <br>
-        <button type="submit">Login</button>
+        <label for="Age">Age</label>
+        <input type="text" id="age" name="age" placeholder="Enter your age" required>
+        <br>
+        <button type="submit" style="margin-top: 20px; font-size: 15px;">Login</button>
         
 </body>
 </html>
