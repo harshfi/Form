@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        body{
+            margin: 0px;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        
+        }
+         button {
+            margin-top: 16px;
+            width: 100%;
+        }
+        label {
+            display: block;
+            margin-top: 13px;
+        }
+        form {
+            padding: 24px;
+            border: 1px solid black;
+            border-radius: 7px;
+        }
+    </style>
+
+<body>
+    <!-- //login form -->
+     <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+        
+</body>
+</html>
 <body>
     <!-- //login form -->
      <form action="/login" method="post">
